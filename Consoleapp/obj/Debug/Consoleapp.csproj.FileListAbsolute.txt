@@ -1,0 +1,8 @@
+c:\users\rozy\documents\visual studio 2015\Projects\Consoleapp\Consoleapp\bin\Debug\Consoleapp.exe.config
+C:\Users\Rozy\Documents\Visual Studio 2015\Projects\Consoleapp\Consoleapp\bin\Debug\Consoleapp.exe
+C:\Users\Rozy\Documents\Visual Studio 2015\Projects\Consoleapp\Consoleapp\bin\Debug\Consoleapp.pdb
+C:\Users\Rozy\Documents\Visual Studio 2015\Projects\Consoleapp\Consoleapp\obj\Debug\Consoleapp.exe
+C:\Users\Rozy\Documents\Visual Studio 2015\Projects\Consoleapp\Consoleapp\obj\Debug\Consoleapp.pdb
+C:\Users\Rozy\Documents\Visual Studio 2015\Projects\Consoleapp\Consoleapp\obj\Debug\Consoleapp.csprojResolveAssemblyReference.cache
+C:\Users\Rozy\Documents\Visual Studio 2015\Projects\Consoleapp\Consoleapp\bin\Debug\ClassLibrarytest.dll
+C:\Users\Rozy\Documents\Visual Studio 2015\Projects\Consoleapp\Consoleapp\bin\Debug\ClassLibrarytest.pdb
