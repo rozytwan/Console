@@ -8,39 +8,75 @@ namespace ClassLibrarytest.Computer
 {
   public  class Stack
     {
-        public int[] _container = new int[10];
+        private int[] _container;
         private int count = 0;
-        public int Count { get { return count;
-                    } }
-        public void push(int a)
+
+
+        public Stack(int Size)
         {
-            if (count < 10)
+            _container = new int[Size];
+        }
+        public int Count { get { return count; } }
+
+        public void Push(int a)
+        {
+            if (count < _container.Length)
             {
-
-
                 _container[count] = a;
                 count++;
             }
 
         }
-        public int pop()
+
+        public int Pop()
         {
             int ret = 0;
-            if (count>=0)
+            if (count >= 0)
             {
-                ret = _container[count];
-                _container[count] = 0;
+                ret = _container[count - 1];
+                _container[count - 1] = 0;
                 count--;
             }
+
             return ret;
         }
-        public string Display()
+
+
+        public string DisplayAll()
         {
-            int[] dest = new int[count - 1];
-                Array.Copy(_container, dest,count);
-            string str = string.Join(",",dest);
+            int[] dest = new int[count];
+            Array.Copy(_container, dest, count);
+            string str = string.Join(",", dest);
             return str;
         }
+    }
+    public class CustomStack
+    {
+        private int[] _container = new int[0];
 
+        public int Count { get { return _container.Length; } }
+        public void Push(int a)
+        {
+            Array.Resize(ref _container, _container.Length + 1);
+            _container[_container.Length - 1] = a;
+        }
+
+        public int Pop()
+        {
+            int ret = 0;
+            if (_container.Length >= 0)
+            {
+                ret = _container[_container.Length - 1];
+                Array.Resize(ref _container, _container.Length - 1);
+            }
+
+            return ret;
+        }
+
+        public string DisplayAll()
+        {
+            string str = string.Join(",", _container);
+            return str;
+        }
     }
 }
