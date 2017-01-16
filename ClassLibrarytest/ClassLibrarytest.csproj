@@ -41,8 +41,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Computer\Queue.cs" />
     <Compile Include="Computer\Stack.cs" />
+    <Compile Include="Inheritance\Bus.cs" />
+    <Compile Include="Inheritance\Vehicals.cs" />
     <Compile Include="math\Arithematic.cs" />
+    <Compile Include="math\Shape.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
